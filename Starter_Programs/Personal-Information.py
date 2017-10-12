@@ -1,0 +1,10 @@
+name = input('What is your name?: ')
+address = input('What is your address?: ')
+phone = input('What is your phone number?: ')
+major = input('What is your college major?: ')
+
+print('Hello', name)
+print('Your address is:')
+print(address)
+print('Your phone number is', phone)
+print('Your major is', major)
