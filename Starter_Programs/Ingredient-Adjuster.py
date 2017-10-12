@@ -1,7 +1,7 @@
 # Evan Douglass
 # Ch. 2 Exercsises: Ingredient Adjuster
 
-# This program adjusts the needed amount of ingredients for a cookie recipe
+# This program adjusts the amount of ingredients needed for a cookie recipe
 # based on the number of cookies the user wants to make
 # Recipe: 1.5 cups sugar, 1 cup butter, 2.75 cups flour. Makes 48 cookies.
 
