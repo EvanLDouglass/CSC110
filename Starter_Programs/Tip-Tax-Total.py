@@ -5,14 +5,19 @@
 
 # input charge for food
 charge = float(input('Cost of food: $'))
+
 # input sales tax
 tax = 0.07
+
 # calculate subtotal (from charge and tax)
 subtotal = charge * (1 + tax)
+
 # calculate tip amount
 tip = 0.18 * subtotal
+
 # calculate total with tip
 total = subtotal + tip
+
 # display each variable/result
 print('Charge: $' + format(charge, ',.2f'))
 print('Sales tax:', format(tax, '.0%'))
