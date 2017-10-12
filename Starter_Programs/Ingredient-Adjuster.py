@@ -7,12 +7,15 @@
 
 # input desired number of cookies
 cookies = int(input('How many cookies do you want to make? '))
+
 # calculate percentage of from 48
 percent = cookies / 48
+
 # calculate new amounts of ingredients needed
 sugar = 1.5 * percent
 butter = 1.5 * percent
 flour = 2.75 * percent
+
 # display the new recipe for n cookies
 print('Adjusted Cookie Recipe')
 print(format(sugar, '.2f'), 'cup(s) of sugar')
